@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+
+.footer {
+    --aug-border: 5px;
+    --aug-inset: 5px;
+    display: grid;
+    grid-area: f;
+    background-color: black;
+    opacity: .88;
+    width:100%;
+    padding: 30px 0  10px 0;
+    --aug-border-bg: gold;
+    --aug-inset-bg: gold;
+}
+
+
+
+.socialNet {
+    margin: 10px 0  0 470px ;
+ 
+}
+.socialItem{
+    width: 25;
+    height: 25;
+    margin-left: 25px;
+}
+
+.footerItems{
+    font-weight: 500;
+    margin: 10px 0  0 430px ;
+    
+}
+
+.footerItems li{
+    display: inline-block;
+}
+.footerItems li a{
+text-decoration: none; 
+color: black;
+}
+
+.footerItems li a:hover{
+color: blue;
+transition: 0.3s;
+}
+
+.footerItems li::before {
+    content: "|";
+    padding: 5px;
+}
+.footerItems li::after {
+    content: "|";
+    padding: 5px;
+}
+.copy{
+    text-align: center;
+}
+
+
+.writer{
+    margin-left:100px;
+}

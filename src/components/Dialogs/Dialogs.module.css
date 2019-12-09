@@ -1,0 +1,71 @@
+
+.dialogs{
+    display: grid;
+    grid-template-areas: 
+    "d m";
+    grid-template-columns: 2fr 6fr;
+    grid-gap:3px;
+
+}
+
+.dialogItems {
+    grid-area: d;
+    padding:20px 10px 0 10px;
+}
+
+.dialogItems h4{
+    margin: -5px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.dialogItems .diaitem {
+  
+}
+
+.dialog {
+    text-decoration: none;
+    color: blue;
+    padding-left:10px;
+}
+.dialog:hover {
+    color:red;
+}
+
+.messagesItems {
+    grid-area: m;
+    margin: 35px 0 0 0 ;
+    cursor: pointer;
+}
+
+.line {
+    color:gray;
+    background-color: gray;
+    height: 1px;
+    border: none;
+    width:330px;
+    margin: -160px 0 0 100px;
+    transform: rotate(90deg);
+}
+.gachi {
+    
+    width:30px;
+    border-radius: 30px;
+}
+
+.chat {
+   
+    width:400px;
+    height:300px;
+    border: 1px solid red;
+}
+
+.textarea {
+    width: 350px;
+    height: 100px;
+}
+.send {
+    position: relative;
+    bottom: 49px;
+    width:50px;
+    height: 106px;
+}

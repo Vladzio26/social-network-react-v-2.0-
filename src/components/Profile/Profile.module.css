@@ -1,0 +1,37 @@
+
+  .content img {
+    margin: 10px 5px 3px 20px;
+    width:1000px;
+    height: 200px;
+  }
+  
+  .post_maker {
+    padding: 0 5px 10px 20px;
+    display: grid;
+    grid-template-areas: 
+    "h1 h1"
+    "p p";
+    grid-template-rows:  65px 1fr;
+    grid-template-columns: 8fr 1fr;
+    grid-gap:3px;
+  }
+  .post_maker h2 {
+    grid-area: h1;
+  }
+  .post_maker h2 input {
+    grid-area: p;
+    height: 300px;
+  }
+  .post_maker h2 input button{
+    grid-area: b;
+    width:50px;
+    height: 50px;
+    margin-left: -300px;
+  }
+ .button{
+   position: relative;
+   left:-250px;
+   height: 66px;
+   border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  }

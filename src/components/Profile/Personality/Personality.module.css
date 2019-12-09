@@ -1,0 +1,35 @@
+.avatar {
+    display: grid;
+    grid-template-areas: 
+    "h p";
+    grid-template-columns: 2fr 8fr;
+    grid-gap:3px;
+  }
+  .avatar img {
+    grid-area: h;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  .avatar img p {
+    grid-area: p;
+    padding: 10px 0 0 20px;
+  }
+  .profile li {
+    list-style: none;
+  }
+  .profile li span{
+    font-weight: bold;
+  }
+  .preloader {
+    width:50px;
+    height: 50px;
+  }
+  .status{
+    font-weight: 100;
+    position: relative;
+    top:-10px;
+  }
+  .spanStatus{
+    font-weight: 500;
+  }

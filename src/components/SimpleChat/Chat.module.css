@@ -1,0 +1,86 @@
+.inputMessage {
+    width: 575px;
+    border:2px solid skyblue;
+    height: 30px;
+    grid-area: tx;
+}
+.inputMessage:focus {
+    width: 575px;
+    border:2px solid rgb(35, 187, 192);
+    height: 30px;
+    background-color: rgb(240, 240, 146);
+}
+
+.app{
+    width:550px;
+    padding: 2px;
+    display: grid;
+    grid-template-areas: 
+    "t e"
+    " c e"
+    " tx tx ";
+    grid-gap:2px;
+}
+.wrapper{
+    grid-area: c;
+    overflow: scroll;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 500px;
+    width: 580px;
+    margin: 0 auto;
+    background-color: rgb(207, 200, 200);
+    border: 3px solid rgb(51, 47, 48);
+}
+.title{
+    height: 80px;
+    grid-area: t;
+    border:1px solid green;
+    background-color: aqua;
+    text-align: center;
+}
+.currentUser{
+    margin-top: -20px;
+}
+.user{
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+    padding: 5px;
+    width:120px;
+    background-color: darkorange;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid rgb(228, 126, 1);
+}
+.message{
+    padding: 10px;
+    font: 400 1em 'Open Sans', sans-serif;
+    grid-area: c;
+    word-break: break-all;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left:40px;
+    margin-top: 5px;
+    border:3px solid rgba(224, 223, 223, 0.856);
+}
+
+.message:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 17px solid whitesmoke;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    margin-left: -24px;
+    margin-top: -13px;
+    
+    
+}
+
+.emoji{
+   margin-top:160px;
+    grid-area: e;
+    float: right;
+    
+}

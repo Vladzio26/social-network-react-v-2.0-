@@ -1,0 +1,68 @@
+.login {
+    margin: 0 100px;
+}
+
+.loginh{
+    text-align: center;
+}
+.loginInt{
+    
+    margin-left: 300px;
+    text-align: center;
+    
+}
+.loginInput{
+    border:none;
+    height:20px;
+    padding: 10px;
+    margin: 2px;
+
+}
+.pass{
+    margin-left: 300px;
+    text-align: center;
+}
+
+.rememberme{
+    margin-left: 300px;
+    text-align: center;
+    position: relative;
+    left: -80px;
+}
+.logButton{
+    border:none;
+    margin-left: 190px;
+    text-align: center;
+}
+.buttonLogin{
+    height: 40px;
+    width:80px;
+    background-color: lightsteelblue;
+}
+.disFloat{
+position: relative;
+left:-50px;
+top:-23px;
+}
+.loginForm{
+    padding: 50px;
+}
+.passInput{
+    background-color: lightsteelblue;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.passInput:focus{
+    cursor: pointer;
+    border-color: rgb(215, 236, 19);
+}
+.labelLogin{
+    margin-left: -335px;
+}
+.labelPass{
+    margin-left: -320px;
+}

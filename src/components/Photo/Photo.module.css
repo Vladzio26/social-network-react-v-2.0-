@@ -1,0 +1,184 @@
+.myImg{
+    width: 200px;
+    z-index: 999;
+}
+
+
+.app{
+    z-index: 999;
+}
+.progress{
+    
+    color:rgb(19, 224, 19);
+    position: relative;
+    top: -5px;
+    margin-left:90px;
+    height: 10px;
+    width:780px;
+    
+    border-radius: 40px;
+}
+.wrapperForInput{
+    
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0, 255, 191, 0.548);
+    width: 430px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 180px;
+}
+.inputFile{
+    border: none;
+    height: 100%;
+    width: 450px;
+    position: relative;
+    top:-24px;
+}
+input[type="file"] {
+    opacity: 0;
+    
+    
+}
+select{
+  margin-left: 100px;
+}
+.label{
+    
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 100px;
+    color:white;
+    font-weight:600; 
+    position: relative;
+    margin-left: 180px;
+    margin-top: -40px;
+    top: 10px;
+}
+.img{
+    margin-top: 10px;
+    width:50px;
+    margin-left: 120px;
+}
+.buttonUpload{
+    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width:100px;
+    height:50px;
+    float:right;
+    position: relative;
+    left:-300px;
+    margin-top:-50px;
+    margin-left:-100px; 
+    border:none;
+    background-color: rgb(38, 25, 228);
+}
+
+.wrapperPreview{
+    height: 300px;
+    
+}
+.alignImage{
+    margin-left: 230px;
+}
+.header{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 999;
+    width:100%;max-width:300px
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal_content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal_content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal_content {
+      width: 100%;
+    }
+  }

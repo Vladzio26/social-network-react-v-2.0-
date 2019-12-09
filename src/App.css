@@ -1,0 +1,26 @@
+.grid-wrapper {
+  margin-left: 80px;
+  width:1200px;
+  height:100px;
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "n c"
+    "f f";
+    grid-template-rows:  65px 1fr;
+    grid-template-columns: 2fr 8fr;
+    grid-gap:6px;
+    
+}
+
+div .demo0 {
+  --aug-tl-height: 50%;
+  --aug-br-height: 30%;
+  --aug-inset-bg: rgb(116, 211, 27);
+}
+.content {
+  --aug-border: 5px;
+  --aug-border-bg: rgb(72, 214, 16);
+  grid-area: c;
+  opacity: .9;
+}

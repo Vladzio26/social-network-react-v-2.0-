@@ -1,0 +1,97 @@
+.header {
+    grid-area: h;
+   
+    z-index: 1;
+    width:100%;
+}
+.header img {
+  margin: -45px 0 5px 20px;
+  width:270px;
+}
+.login {
+  margin-top: -100px;
+  float: right;
+  color:white;
+  z-index: 99;
+}
+.login a {
+  color:white;
+}
+.logo{
+  width:500%;
+  height: 500%;
+  z-index: 999;
+}
+.logoWrapper{
+  z-index: 559;
+  width:260px;
+}
+
+
+
+.glitch {
+  position: relative;
+      width:100%;
+    height: 143px;
+  background: url(../../assets/logo.png);
+  top:-40px;
+  left:20px;
+}
+
+.glitch:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/logo.png);
+  background-size: cover;
+  opacity: 1;
+}
+
+.glitch:hover:before {
+  animation: animate .2s infinite;
+}
+
+@keyframes animate {
+  0% {
+   
+    filter: hue-rotate(0deg);
+  }
+  10% {
+    background-position: 2px 0;
+  }
+  20% {
+    background-position: -4px 0;
+  }
+  30% {
+    background-position: 6px 0;
+  }
+  40% {
+    background-position: -6px 0;
+  }
+  50% {
+    background-position: 14px 0;
+  }
+  60% {
+    background-position: -10px 0;
+  }
+  70% {
+    background-position: 10px 15px;
+  }
+  80% {
+    background-position: -20px -10px;
+  }
+  100% {
+    
+    filter: hue-rotate(360deg);
+  }
+}
+
+.logout{
+  background-color: gold;
+  border:none;
+  height: 20px;
+  border:1px solid lightsteelblue;
+}

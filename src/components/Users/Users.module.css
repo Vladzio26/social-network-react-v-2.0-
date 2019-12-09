@@ -1,0 +1,60 @@
+.wrapper {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 270px;
+    height: 50px;
+    border: 2.4px solid skyblue;
+    border-radius: 35px;
+
+}
+
+.leftSide {
+    float: left;
+
+}
+
+.rightSide {
+    float: right;
+}
+
+.userPhoto {
+    padding: 0 0 0 0;
+    width: 50px;
+    margin: 0 0 0 250px;
+    border-radius: 30px;
+}
+
+.follow {
+    float: left;
+}
+.follow button {
+    width: 70px;
+    position: relative;
+    top: 20px;
+    right: 60px;
+}
+
+.selectedPage {
+    background-color: red;
+    border: 2px solid black;
+    color: gold;
+    padding: 10px;
+   
+    cursor: pointer;
+    font-weight: bold;
+}
+.page{
+    background-color: rgba(31, 209, 25, 0.829);
+    border: 2px solid black;
+    margin-left: 10;
+   
+    padding: 5px;
+    cursor: pointer;
+}
+.paginator{
+    
+    margin-left: 150px;
+}
+
+

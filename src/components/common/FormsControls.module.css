@@ -1,0 +1,26 @@
+
+.formcontrol{
+    width:300px;
+}
+
+.formcontrol.error input,
+.formcontrol.error textarea
+{
+    border: 1px solid red;
+}
+
+.formcontrol.error span {
+    color: red;
+}
+
+.postInput{
+    width:650px;
+    height:60px;
+    border-bottom:2px solid grey ;
+}
+
+.postInput::placeholder{
+   position: relative;
+   top:0;
+   left:0;
+}

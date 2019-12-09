@@ -1,0 +1,65 @@
+{
+  "name": "it-kamasutra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "aug-attr-spliced": "^0.2.0",
+    "augmented-ui": "^1.1.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.7.1",
+    "emoji-mart": "^2.11.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "firebase": "^7.0.0",
+    "localforage": "^1.7.3",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.2.2",
+    "react-activity-feed": "^0.9.23",
+    "react-audioplaylist": "^1.0.8",
+    "react-dom": "^16.3.2",
+    "react-h5-audio-player": "^1.2.1",
+    "react-media-visualizer": "^1.1.1",
+    "react-medium-zoom": "^1.0.0",
+    "react-minesweeper": "^1.0.2",
+    "react-native-fs": "^2.16.1",
+    "react-polygon": "^0.2.0",
+    "react-redux": "^7.1.1",
+    "react-router": "^5.1.2",
+    "react-scripts": "3.1.1",
+    "react-soundplayer": "^1.0.4",
+    "react-typical": "^0.1.2",
+    "react-with-firebase-auth": "^1.0.5",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0",
+    "scss": "^0.2.4",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
+  }
+}
