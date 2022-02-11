@@ -14,7 +14,7 @@
     "express-session": "^1.16.2",
     "firebase": "^7.0.0",
     "localforage": "^1.7.3",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.2.2",
     "react-activity-feed": "^0.9.23",
